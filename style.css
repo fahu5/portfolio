@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header ul,
+li,
+a,
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: rgb(101, 123, 151);
+}
+
+.logo {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.navbar li a:hover {
+    text-decoration-line: underline;
+    color: black;
+}
+
+button {
+    background-color: rgb(101, 93, 226);
+    padding: 9px 25px;
+    border: none;
+    border: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: rgb(207, 243, 237);
+    max-width: 100%;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 0.5em;
+}
+
+.hero-text emp {
+    margin-bottom: 1.5em;
+}
+
+.signup-form {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.signup-form h3 {
+    margin-bottom: 1em;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.signup-form input {
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.course {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+
+}
+
+.course-card {
+    background-color: rgb(165, 170, 169);
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-color: black;
+    cursor: pointer;
+}
+
+.course-card img {
+    max-width: 100%;
+    border: 10px;
+}
+
+.course-card h4 {
+    margin: 1em 0;
+}
+
+.course-card p {
+    margin-bottom: 0.5em;
+}
+
+.price {
+    color: rgb(61, 43, 226);
+    font-weight: bold;
+}
+
+img {
+    height: 150px;
+    width: 240px;
+}
